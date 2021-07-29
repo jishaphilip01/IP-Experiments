@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>T shirt Website</title>
+</head>
+<body style="margin: 0 0 0 500px;">
+  
+    <form action="">
+    <div class="container">
+        <img src="Media/Tshirt.jpg" alt="This is a Tshirt Image" height="300px">
+    </div>
+    <p><em> Style your Styles</em></p>
+    <div class="custom-text">
+        <label for ="custom-text">Enter Customized Text:</label>&nbsp;<input type="text" name="tagline-text" required>
+    </div>
+    <label for="color">Colour:</label><br>
+    <input type="text" id="color" name="color"><br><br>
+    <label for="size">Size:</label><br>
+    <select name="Size" id="Size">
+        <option value="null" selected disabled hidden>Select size</option>
+        <option value="x">X</option>
+        <option value="m">M</option>
+        <option value="l">L</option>
+        <option value="xl">XL</option>
+    </select><br><br>
+    &nbsp;
+    
+    &nbsp;
+    &nbsp;
+    <p><strong><u> Delivery Options:</u> <strong></p>
+    &nbsp;
+    <div class="pincode">
+        Enter Pincode: <input type="number" name="pin" id="pincode" required placeholder="Eg.400604">
+    </div>
+    &nbsp;
+    &nbsp;
+    <div class="address">
+    Enter Address: <textarea name="address" id="add" cols="30" rows="4" placeholder="Type Your Address Here"></textarea>
+    </div>
+    &nbsp;    
+    <div class="date-user">
+        <label for="date">Select a Date :</label>
+        <input type="date" id="date" min="2021-05-25" max="2021-06-05">   
+    </div>
+    &nbsp;
+    &nbsp;
+    <div class="submit-btn">
+        <input type="submit" value="Order Now">
+    </div>
+</form>
+</body>
+</html>
