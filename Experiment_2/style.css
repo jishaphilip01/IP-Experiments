@@ -14,9 +14,10 @@ body {
     border-radius: 30%;
     }
     .styled-table {
+    color: antiquewhite;
     border-collapse: collapse;
     margin: 25px 0;
-    font-size: 0.9em;
+    font-size: 4; 
     font-family: sans-serif;
     min-width: 400px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
